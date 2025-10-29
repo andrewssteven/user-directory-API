@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 });
 
 //user route endpoints
-app.use("/api/v1/", userRouter);
+app.use("/api/v1/users/", userRouter);
 
 // error handle middleware
 app.use(notFound)
